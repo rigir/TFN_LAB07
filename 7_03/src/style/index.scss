@@ -1,0 +1,86 @@
+$main_font_family: "Arial";
+
+$main_color: #c82828;
+$sec_color: #8f3030;
+$font_color: rgb(63, 48, 48);
+$background_color: #6c6262;
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  p {
+  font-family: $main_font_family;
+  color: darken($color: $font_color, $amount: 25c);
+  }
+}
+
+nav {
+   ul {
+     li {
+      display: inline-block;
+      padding-right: 10px;
+
+      a{
+        text-decoration: none;
+        font-size: 20px;
+        color: darken($color: $sec_color, $amount: 25)
+      }
+    }
+  }
+}
+
+section {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  h1 {
+    font-family: $main_font_family;
+    color: lighten($color: $font_color, $amount: 25);
+  }
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  width: 50%;
+  border-radius: 25px;
+ 
+  background-color: $background_color;
+
+  h2 {
+    color: $font_color;
+  }
+
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
+  p {
+    font-family: $main_font_family;
+    font-weight: bold;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  p{
+  font-size: larger;
+  font-weight: bold;
+  color: darken($color: $main_color, $amount: 20);
+  }
+}

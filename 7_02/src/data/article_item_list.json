@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Firefox",
+      "description": "Wieloplatformowa przeglądarka internetowa stworzona i rozwijana przez Mozilla Foundation, Mozilla Corporation oraz wolontariuszy.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1024px-Firefox_logo%2C_2019.svg.png"
+    },
+    {
+      "name": "Chrome",
+      "description": "Darmowa przeglądarka internetowa rozwijana przez Google.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/1024px-Google_Chrome_icon_%28February_2022%29.svg.png"
+    },
+    {
+      "name": "Microsoft Edge",
+      "description": "Przeglądarka internetowa firmy Microsoft.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Microsoft_Edge_logo_%282019%29.svg/1024px-Microsoft_Edge_logo_%282019%29.svg.png"
+    }
+  ]
